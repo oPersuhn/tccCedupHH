@@ -1210,6 +1210,32 @@ footer p a:hover {
 
 }
 
+
+/* Estilo para a cor do texto para aula confirmada (verde) */
+.status-text-verde {
+    color: #00ff08;
+    font-weight: bold; /* Verde */
+}
+
+/* Estilo para a cor do texto para aula rejeitada (vermelho) */
+.status-text-vermelho {
+    color: #ff0000;
+    font-weight: bold; /* Vermelho */
+}
+
+/* Estilo para a cor do texto para aula pendente (amarelo) */
+.status-text-amarelo {
+    color: #ffd900;
+    font-weight: bold; /* Amarelo */
+}
+
+/* Estilo para a célula da tabela (fundo preto) */
+.status-celula {
+    background-color: black;
+}
+
+
+
 /* 
 ---------------------------------------------
 preloader

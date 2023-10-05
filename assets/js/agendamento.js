@@ -28,7 +28,7 @@ const modalidadeProfessores = {
   const aulaSelect = document.getElementById("aula");
   aulaSelect.addEventListener("change", () => {
     atualizarProfessor(); // Atualize o professor primeiro
-    bloquearProfessor(); // Em seguida, bloqueie o campo de professor
+     // Em seguida, bloqueie o campo de professor
   });
   
   
