@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Projeto de conclusão de curso- MVMT GYM">
     <meta name="author" content="Ruan Mouzinho">
+    
     <link
         href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href=".ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
     <title>MVMT GYM</title>
     <!--
 
@@ -51,18 +52,20 @@ https://templatemo.com/tm-548-training-studio
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">MVMT<em>GYm</em></a>
+                        <a class="logo">MVMT<em>GYm</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Início</a></li>
+                            <li class="scroll-to-section"><a href="#trainers">Planos</a></li>
                             <li class="scroll-to-section"><a href="#features">Modalidades</a></li>
                             <li class="scroll-to-section"><a href="#our-classes">Agendar Aula</a></li>
                             <li class="scroll-to-section"><a href="#schedule">Horários</a></li>
-                            <li class="scroll-to-section"><a href="#trainers">Sobre Nós</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">Suporte</a></li>
-                            <li class="main-button"><a href="/mvmt-gym-1.0.0/assets/html/signin.html">Entrar</a></li>
-
+                            <!-- <li class="scroll-to-section"><a href="#contact-us">Suporte</a></li> -->
+                            <li class="iconeperfil"><a href="./php/perfil.php">
+                            <img src="assets/images/iconperfil.png"> </a>
+                            </li><a href="./php/perfil.php">
+                            </a>
+                            </li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -74,6 +77,7 @@ https://templatemo.com/tm-548-training-studio
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+    
 
     <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
@@ -81,14 +85,61 @@ https://templatemo.com/tm-548-training-studio
         <div class="video-overlay header-text">
             <div class="caption">
                 <h6>Movimente-se com nós</h6>
-                <h2>Faça parte do time <em>MVMT GYm</em></h2>
-                <div class="main-button scroll-to-section">
-                    <a href="/mvmt-gym-1.0.0/assets/html/signup.html">Junte-se a nós</a>
-                </div>
+                <h2>Time <em>MVMT GYM</em></h2>
             </div>
         </div>
     </div>
     <!-- ***** Main Banner Area End ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2 style="color: #000;">Nossos planos</h2>
+
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Oferecemos diferentes planos,para diferentes bolsos e gostos!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/planoGold.jpg" alt="">
+                        </div>
+                        <br>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/planoVip.jpg" alt="">
+                        </div>
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/planoDobro.jpg" alt="">
+                        </div>
+                        <br>
+                        
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
     <!-- ***** Features Item Start ***** -->
     <section class="section" id="features">
@@ -112,7 +163,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Treinamento funcional</h4>
-                                <p>Descrição curta sobre o que é o treinamento funcional</p>
+                                <p>Transforme seu corpo,mente e sua saúde com treinamento funcional de alto desempenho. Desenvolva força, agilidade e resistência.</p>
                                 <a href="https://www.atletis.com.br/treino-funcional" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -122,7 +173,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Boxe</h4>
-                                <p>descrição curta boxe blablabalbalbalab</p>
+                                <p>Entre no ringue e fortaleça corpo e mente com o treinamento de boxe. Desenvolva técnica, resistência e confiança em nossas aulas.</p>
                                 <a href="https://www.terra.com.br/esportes/boxe-sete-beneficios-do-esporte-para-a-saude,5400913d633502096ba3bf83713977df5eomsxgg.html" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -132,7 +183,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Dança</h4>
-                                <p>Descrição curta dança blablabalbalbalab</p>
+                                <p>Liberte sua expressão através da dança. Aprenda diferentes estilos e aprimore sua coordenação e ritmo em nossas aulas animadas </p>
                                 <a href="https://viverbem.unimedbh.com.br/para-participar/beneficios-da-danca/" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -146,7 +197,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Musculação</h4>
-                                <p>Descrição curta Musculação blablabalbalbalab</p>
+                                <p>Atinga seus objetivos de condicionamento físico com nossa academia de musculação de alta qualidade. Transforme seu corpo e ganhe força duradoura.</p>
                                 <a href="https://www.atletis.com.br/beneficios-da-musculacao" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -156,7 +207,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Yoga</h4>
-                                <p>Descrição curta yoga blablabalbalbalab</p>
+                                <p>Encontre equilíbrio e serenidade em nossas aulas de yoga. Aumente a flexibilidade e a tranquilidade em um ambiente acolhedor</p>
                                 <a href="https://www.tuasaude.com/beneficios-do-yoga/" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -166,7 +217,7 @@ https://templatemo.com/tm-548-training-studio
                             </div>
                             <div class="right-content">
                                 <h4>Grupo de Corrida</h4>
-                                <p>Descrição curta corrida blablabalbalbalab</p>
+                                <p>Corra em grupo e alcance seus objetivos de condicionamento físico.Aprimore sua resistência e compartilhe a paixão pela corrida.</p>
                                 <a href="https://www.atletis.com.br/efeitos-da-corrida-no-corpo" target="_blank" class="text-button">Saiba mais</a>
                             </div>
                         </li>
@@ -219,7 +270,7 @@ https://templatemo.com/tm-548-training-studio
 
                                         <div class="label-float">
 
-                                            <label for="labelprofessor">Professor:</label>
+                                            <label for="professor">Professor:</label>
                                             <input type="text" id="professor" name="professor" required readonly>
                                         </div>
 
@@ -264,17 +315,7 @@ https://templatemo.com/tm-548-training-studio
                 </div>
             </div>
             <div class="row">
-                <!-- <div class="col-lg-12">
-                    <div class="filters">
-                        <ul class="schedule-filter">
-                            <li class="active" data-tsfilter="monday">Segunda-Feira</li>
-                            <li data-tsfilter="tuesday">Terça-Feira</li>
-                            <li data-tsfilter="wednesday">Quarta-Feira</li>
-                            <li data-tsfilter="thursday">Quinta-Feira</li>
-                            <li data-tsfilter="friday">Sexta-Feira</li>
-                        </ul>
-                    </div>
-                </div> -->
+        
                 <div class="col-lg-10 offset-lg-1">
                     <div class="schedule-table filtering">
                         <table>
@@ -284,13 +325,11 @@ https://templatemo.com/tm-548-training-studio
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th>Modalidade</th>
-                                                <th>Data</th>
-                                                <th>Hora</th>
+                                            
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <?php include 'agenda.php'; ?>
+                                        <?php include './php/agenda.php';?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -303,74 +342,9 @@ https://templatemo.com/tm-548-training-studio
     </section>
 
     <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section" id="">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2 style="color: #000;">Quem <em>somos?</em></h2>
-
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>Nossos profissionais estão dedicados à te auxiliar em seus objetivos.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instrutor de Musculação</span>
-                            <h4>Augusto N. Persuhn</h4>
-                            <p>Especialista em Musculação e hipertrofia</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instrutor Boxe</span>
-                            <h4>Ruan Mouzinho</h4>
-                            <p>Mestre em artes marciais</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/third-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instrutor Dança</span>
-                            <h4>Pedro Barros</h4>
-                            <p>Especialista em danças e ginastica corporal.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
         </div>
         <br>
         <br>
@@ -410,13 +384,13 @@ https://templatemo.com/tm-548-training-studio
                         <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 <fieldset>
-                                    <input name="name" type="text" id="name" placeholder="Insira seu nome:" required="">
+                                    <input name="name" type="text" id="name" placeholder="Insira seu nome:" required="" autocomplete="name">
                                 </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                                 <fieldset>
                                     <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
-                                        placeholder="Insira seu email*" required="">
+                                        placeholder="Insira seu email*" required="" autocomplete="email">
                                 </fieldset>
                             </div>
                             <!-- <div class="col-md-12 col-sm-12"> 
@@ -482,9 +456,7 @@ https://templatemo.com/tm-548-training-studio
     <script src="assets/js/accordions.js"></script>
     <script src="assets/js/agendamento.js"></script>
 
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
-
+   
 </body>
 
 </html>

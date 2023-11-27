@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: solid 1px #fff;
+  background-color: #00000080;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-float {
+  position: relative;
+  margin-top: 20px;
+  color: #fff;
+  position: relative;
+  padding-top: 17px;
+  margin-bottom: 5%;
+}
+
+.label-float input {
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #10f810;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #10f810;
+}
+
+.label-float label {
+  color: #10f810;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #10f810;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #10f810;
+}
+
+.justify-center {
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid #10f810;
+  background-color: #10f810;
+  color: #fff;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #10f810;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #10f810;
+  }
+  

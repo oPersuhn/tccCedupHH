@@ -131,7 +131,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1161,8 +1161,9 @@ contact
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: #10f810;
-  color: black;
+  background-color: #10f810
+  ;
+  color: #fff;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
@@ -1170,13 +1171,11 @@ contact
   border: none;
   outline: none;
   margin-top: -8px;
-  border-radius: 10px;
 }
 
 .contact-form button:hover {
-  background-color: #ffff;
-  color: #10f810;
-  transform: scale(1.1);
+  background-color: #10f810
+  ;
 }
 
 

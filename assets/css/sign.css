@@ -6,19 +6,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
 
 .container {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-top: 100px;
 }
 
@@ -31,16 +28,16 @@ body {
   width: 400px;
 }
 
-h1{
+h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #10f810
+  color: #10f810;
 }
 
-.label-float input{
+.label-float input {
   color: #fff;
-  width: 100%;
-  padding: 15px;
+  width: 90%;
+  padding: 20px;
   display: inline-block;
   border: 0;
   border-bottom: 2px solid #10f810;
@@ -50,10 +47,17 @@ h1{
   font-size: 16px;
   transition: all .3s ease-out;
   border-radius: 0;
-  
+  position: relative;
 }
 
-.label-float{
+.label-float i{
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+  right: 5%;
+}
+
+.label-float {
   color: #fff;
   position: relative;
   padding-top: 17px;
@@ -61,11 +65,11 @@ h1{
   margin-bottom: 5%;
 }
 
-.label-float input:focus{
+.label-float input:focus {
   border-bottom: 2px solid #10f810;
 }
 
-.label-float label{
+.label-float label {
   color: #10f810;
   position: absolute;
   top: 0;
@@ -75,37 +79,15 @@ h1{
 }
 
 .label-float input:focus + label,
-.label-float input:valid + label{
+.label-float input:valid + label {
   font-size: 13px;
   margin-top: 0;
-  color: #10f810
-}
-
-button{
-  background-color: transparent;
-  border-color: #10f810;
   color: #10f810;
-  padding: 7px;
-  font-weight: bold;
-  font-size: 12pt;
-  margin-top: 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  transition: all .4s ease-out;
 }
 
-button:hover{
-  background-color: #10f810;
-  color: #fff;
-}
 
-.justify-center{
-  display: flex;
-  justify-content: center;
-}
 
-.fa-eye{
+.fa-eye {
   position: absolute;
   top: 15px;
   right: 10px;
@@ -113,7 +95,8 @@ button:hover{
   color: #10f810;
 }
 
-#msgError{
+#msgError,
+#msgSuccess {
   text-align: center;
   color: #10f810;
   background-color: #24242441;
@@ -122,11 +105,42 @@ button:hover{
   display: none;
 }
 
-#msgSuccess{
-  text-align: center;
+#msgSuccess {
   color: #00bb00;
-  background-color: #24242441;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #10f810;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+p a:hover {
+  color: #00bb00;
+}
+
+.label-float input[type="submit"] {
+  width: 100%;
   padding: 10px;
+  display: inline-block;
+  border: 2px solid #10f810;
+  background-color: #10f810;
+  color: #fff;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   border-radius: 4px;
-  display: none;
+  cursor: pointer;
+}
+
+.label-float input[type="submit"]:hover {
+  background-color: #fff;
+  color: #10f810;
 }
